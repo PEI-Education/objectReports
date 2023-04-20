@@ -1,0 +1,1288 @@
+<PSReportTemplate>
+<FileHeader>
+<Created>Monday, October 4, 2021 8:40:39 AM</Created>
+<PSVersion>(VisualPST 3.2.1,)</PSVersion>
+<TemplateVersion>1.0</TemplateVersion>
+<Author></Author>
+</FileHeader>
+<ReportHeader>
+<Type>Object Report</Type>
+<Name>Early Closure Report V01</Name>
+<Table>Students</Table>
+</ReportHeader>
+<ReportData>
+<Units>Inches</Units>
+<Paper>
+<Size>Letter</Size>
+<Width>8.5</Width>
+<Height>11</Height>
+<Orientation>Portrait</Orientation>
+<Margins>
+<Left>0.5</Left>
+<Top>0.5</Top>
+<Right>0.5</Right>
+<Bottom>0.5</Bottom>
+</Margins>
+<Scale>100</Scale>
+</Paper>
+<Body>
+<Font>
+<Face>Palatino</Face>
+<Size>12</Size>
+<Leading>13</Leading>
+</Font>
+</Body>
+</ReportData>
+<ObjectData>
+<Type>Objects</Type>
+<Object no="1">
+<Type>Box</Type>
+<Label>.00.Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.49</Left>
+<Top>0.882</Top>
+<Right>7.994</Right>
+<Bottom>2.702</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="2">
+<Type>Box</Type>
+<Label>.01.Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.49</Left>
+<Top>2.744</Top>
+<Right>7.994</Right>
+<Bottom>4.564</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="3">
+<Type>Box</Type>
+<Label>.02.Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.49</Left>
+<Top>4.62</Top>
+<Right>7.994</Right>
+<Bottom>6.44</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="4">
+<Type>Box</Type>
+<Label>.03.Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.49</Left>
+<Top>6.51</Top>
+<Right>7.994</Right>
+<Bottom>8.33</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="5">
+<Type>Box</Type>
+<Label>.04.Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.49</Left>
+<Top>8.386</Top>
+<Right>7.994</Right>
+<Bottom>10.206</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="6">
+<Type>Text</Type>
+<Label>.05.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>2.828</Left>
+<Top>0.434</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+</Font>
+<Text>^(schoolname) 
+Early Closure Report - ^(Home_Room)</Text>
+</Body>
+</Object>
+<Object no="7">
+<Type>Text</Type>
+<Label>.06.Student Name</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>1.106</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>12</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+</Font>
+<Text>^(First_Name) ^(Last_Name)</Text>
+</Body>
+</Object>
+<Object no="8">
+<Type>Text</Type>
+<Label>.07.Hm Rm</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>1.386</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Home Room: ^(Home_Room)</Text>
+</Body>
+</Object>
+<Object no="9">
+<Type>Text</Type>
+<Label>.08.Home Phone</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>1.96</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Home Phone: ^(Home_Phone)</Text>
+</Body>
+</Object>
+<Object no="10">
+<Type>Text</Type>
+<Label>.09.Bus</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>2.254</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Bus AM: ^(U_pei_transportation.pei_busesam) Bus PM: ^(U_pei_transportation.pei_busespm)
+Bus AM Alt: ^(U_pei_transportation.pei_busesamalt) Bus PM Alt: ^(U_pei_transportation.pei_busespmalt)</Text>
+</Body>
+</Object>
+<Object no="11">
+<Type>Text</Type>
+<Label>.0A.Grade</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>1.68</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Grade: ^(Grade_Level)</Text>
+</Body>
+</Object>
+<Object no="12">
+<Type>Text</Type>
+<Label>.0B.Alt2 Type</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>4.032</Left>
+<Top>2.058</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;^(U_pei_transportation.pei_altaddress2addresstype) -&lt;/b&gt; ^(U_pei_transportation.pei_altaddress2label)</Text>
+</Body>
+</Object>
+<Object no="13">
+<Type>Text</Type>
+<Label>.0C.Alt2 Address</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>4.032</Left>
+<Top>2.282</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress2streetnum) ^(U_pei_transportation.pei_altaddress2streetname) ^(U_pei_transportation.pei_altaddress2apt)</Text>
+</Body>
+</Object>
+<Object no="14">
+<Type>Text</Type>
+<Label>.0D.Alt1 Type</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>4.018</Left>
+<Top>1.162</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;^(U_pei_transportation.pei_altaddress1addresstype) -&lt;/b&gt; ^(U_pei_transportation.pei_altaddress1label)</Text>
+</Body>
+</Object>
+<Object no="15">
+<Type>Text</Type>
+<Label>.0E.Alt1 Address</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>4.018</Left>
+<Top>1.386</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress1streetnum) ^(U_pei_transportation.pei_altaddress1streetname) ^(U_pei_transportation.pei_altaddress1apt)</Text>
+</Body>
+</Object>
+<Object no="16">
+<Type>Text</Type>
+<Label>.0F.Alt1 City</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>4.018</Left>
+<Top>1.61</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress1municipality) ^(U_pei_transportation.pei_altaddress1postalcode)</Text>
+</Body>
+</Object>
+<Object no="17">
+<Type>Text</Type>
+<Label>.0G.Atl2 City</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>4.032</Left>
+<Top>2.506</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress2municipality) ^(U_pei_transportation.pei_altaddress2postalcode)</Text>
+</Body>
+<Special>
+<MoveToNextRecord>True</MoveToNextRecord>
+</Special>
+</Object>
+<Object no="18">
+<Type>Text</Type>
+<Label>.0H.Bus</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>4.116</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Bus AM: ^(U_pei_transportation.pei_busesam) Bus PM: ^(U_pei_transportation.pei_busespm)
+Bus AM Alt: ^(U_pei_transportation.pei_busesamalt) Bus PM Alt: ^(U_pei_transportation.pei_busespmalt)</Text>
+</Body>
+</Object>
+<Object no="19">
+<Type>Text</Type>
+<Label>.0I.Home Phone</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>3.822</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Home Phone: ^(Home_Phone)</Text>
+</Body>
+</Object>
+<Object no="20">
+<Type>Text</Type>
+<Label>.0J.Grade</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>3.542</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Grade: ^(Grade_Level)</Text>
+</Body>
+</Object>
+<Object no="21">
+<Type>Text</Type>
+<Label>.0K.Hm Rm</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>3.248</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Home Room: ^(Home_Room)</Text>
+</Body>
+</Object>
+<Object no="22">
+<Type>Text</Type>
+<Label>.0L.Student Name</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>2.982</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>12</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+</Font>
+<Text>^(First_Name) ^(Last_Name)</Text>
+</Body>
+</Object>
+<Object no="23">
+<Type>Text</Type>
+<Label>.0M.Alt1 Type</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>4.046</Left>
+<Top>3.052</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;^(U_pei_transportation.pei_altaddress1addresstype) -&lt;/b&gt; ^(U_pei_transportation.pei_altaddress1label)</Text>
+</Body>
+</Object>
+<Object no="24">
+<Type>Text</Type>
+<Label>.0N.Alt1 City</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>4.046</Left>
+<Top>3.5</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress1municipality) ^(U_pei_transportation.pei_altaddress1postalcode)</Text>
+</Body>
+</Object>
+<Object no="25">
+<Type>Text</Type>
+<Label>.0O.Alt1 Address</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>4.046</Left>
+<Top>3.276</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress1streetnum) ^(U_pei_transportation.pei_altaddress1streetname) ^(U_pei_transportation.pei_altaddress1apt)</Text>
+</Body>
+</Object>
+<Object no="26">
+<Type>Text</Type>
+<Label>.0P.Alt2 Type</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>3.948</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;^(U_pei_transportation.pei_altaddress2addresstype) -&lt;/b&gt; ^(U_pei_transportation.pei_altaddress2label)</Text>
+</Body>
+</Object>
+<Object no="27">
+<Type>Text</Type>
+<Label>.0Q.Alt2 Address</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>4.172</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress2streetnum) ^(U_pei_transportation.pei_altaddress2streetname) ^(U_pei_transportation.pei_altaddress2apt)</Text>
+</Body>
+</Object>
+<Object no="28">
+<Type>Text</Type>
+<Label>.0R.Atl2 City</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>4.396</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress2municipality) ^(U_pei_transportation.pei_altaddress2postalcode)</Text>
+</Body>
+<Special>
+<MoveToNextRecord>True</MoveToNextRecord>
+</Special>
+</Object>
+<Object no="29">
+<Type>Text</Type>
+<Label>.0S.Bus</Label>
+<Page></Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>5.992</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Bus AM: ^(U_pei_transportation.pei_busesam) Bus PM: ^(U_pei_transportation.pei_busespm)
+Bus AM Alt: ^(U_pei_transportation.pei_busesamalt) Bus PM Alt: ^(U_pei_transportation.pei_busespmalt)</Text>
+</Body>
+</Object>
+<Object no="30">
+<Type>Text</Type>
+<Label>.0T.Home Phone</Label>
+<Page></Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>5.698</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Home Phone: ^(Home_Phone)</Text>
+</Body>
+</Object>
+<Object no="31">
+<Type>Text</Type>
+<Label>.0U.Grade</Label>
+<Page></Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>5.418</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Grade: ^(Grade_Level)</Text>
+</Body>
+</Object>
+<Object no="32">
+<Type>Text</Type>
+<Label>.0V.Hm Rm</Label>
+<Page></Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>5.124</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Home Room: ^(Home_Room)</Text>
+</Body>
+</Object>
+<Object no="33">
+<Type>Text</Type>
+<Label>.0W.Student Name</Label>
+<Page></Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>0.574</Left>
+<Top>4.872</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>12</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+</Font>
+<Text>^(First_Name) ^(Last_Name)</Text>
+</Body>
+</Object>
+<Object no="34">
+<Type>Text</Type>
+<Label>.0X.Alt1 Type</Label>
+<Page></Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>4.928</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;^(U_pei_transportation.pei_altaddress1addresstype) -&lt;/b&gt; ^(U_pei_transportation.pei_altaddress1label)</Text>
+</Body>
+</Object>
+<Object no="35">
+<Type>Text</Type>
+<Label>.0Y.Alt1 Address</Label>
+<Page></Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>5.152</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress1streetnum) ^(U_pei_transportation.pei_altaddress1streetname) ^(U_pei_transportation.pei_altaddress1apt)</Text>
+</Body>
+</Object>
+<Object no="36">
+<Type>Text</Type>
+<Label>.0Z.Alt1 City</Label>
+<Page></Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>5.376</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress1municipality) ^(U_pei_transportation.pei_altaddress1postalcode)</Text>
+</Body>
+</Object>
+<Object no="37">
+<Type>Text</Type>
+<Label>.10.Alt2 Type</Label>
+<Page></Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>4.074</Left>
+<Top>5.824</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;^(U_pei_transportation.pei_altaddress2addresstype) -&lt;/b&gt; ^(U_pei_transportation.pei_altaddress2label)</Text>
+</Body>
+</Object>
+<Object no="38">
+<Type>Text</Type>
+<Label>.11.Alt2 Address</Label>
+<Page></Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>4.074</Left>
+<Top>6.048</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress2streetnum) ^(U_pei_transportation.pei_altaddress2streetname) ^(U_pei_transportation.pei_altaddress2apt)</Text>
+</Body>
+</Object>
+<Object no="39">
+<Type>Text</Type>
+<Label>.12.Atl2 City</Label>
+<Page></Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>4.074</Left>
+<Top>6.272</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress2municipality) ^(U_pei_transportation.pei_altaddress2postalcode)</Text>
+</Body>
+<Special>
+<MoveToNextRecord>True</MoveToNextRecord>
+</Special>
+</Object>
+<Object no="40">
+<Type>Text</Type>
+<Label>.13.Bus</Label>
+<Page></Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>7.882</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Bus AM: ^(U_pei_transportation.pei_busesam) Bus PM: ^(U_pei_transportation.pei_busespm)
+Bus AM Alt: ^(U_pei_transportation.pei_busesamalt) Bus PM Alt: ^(U_pei_transportation.pei_busespmalt)</Text>
+</Body>
+</Object>
+<Object no="41">
+<Type>Text</Type>
+<Label>.14.Home Phone</Label>
+<Page></Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>7.588</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Home Phone: ^(Home_Phone)</Text>
+</Body>
+</Object>
+<Object no="42">
+<Type>Text</Type>
+<Label>.15.Grade</Label>
+<Page></Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>7.308</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Grade: ^(Grade_Level)</Text>
+</Body>
+</Object>
+<Object no="43">
+<Type>Text</Type>
+<Label>.16.Hm Rm</Label>
+<Page></Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>7.014</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Home Room: ^(Home_Room)</Text>
+</Body>
+</Object>
+<Object no="44">
+<Type>Text</Type>
+<Label>.17.Student Name</Label>
+<Page></Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>0.574</Left>
+<Top>6.748</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>12</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+</Font>
+<Text>^(First_Name) ^(Last_Name)</Text>
+</Body>
+</Object>
+<Object no="45">
+<Type>Text</Type>
+<Label>.18.Alt1 Type</Label>
+<Page></Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>4.046</Left>
+<Top>6.804</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;^(U_pei_transportation.pei_altaddress1addresstype) -&lt;/b&gt; ^(U_pei_transportation.pei_altaddress1label)</Text>
+</Body>
+</Object>
+<Object no="46">
+<Type>Text</Type>
+<Label>.19.Alt1 Address</Label>
+<Page></Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>4.046</Left>
+<Top>7.028</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress1streetnum) ^(U_pei_transportation.pei_altaddress1streetname) ^(U_pei_transportation.pei_altaddress1apt)</Text>
+</Body>
+</Object>
+<Object no="47">
+<Type>Text</Type>
+<Label>.1A.Alt1 City</Label>
+<Page></Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>4.046</Left>
+<Top>7.252</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress1municipality) ^(U_pei_transportation.pei_altaddress1postalcode)</Text>
+</Body>
+</Object>
+<Object no="48">
+<Type>Text</Type>
+<Label>.1B.Alt2 Type</Label>
+<Page></Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>7.7</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;^(U_pei_transportation.pei_altaddress2addresstype) -&lt;/b&gt; ^(U_pei_transportation.pei_altaddress2label)</Text>
+</Body>
+</Object>
+<Object no="49">
+<Type>Text</Type>
+<Label>.1C.Alt2 Address</Label>
+<Page></Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>7.924</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress2streetnum) ^(U_pei_transportation.pei_altaddress2streetname) ^(U_pei_transportation.pei_altaddress2apt)</Text>
+</Body>
+</Object>
+<Object no="50">
+<Type>Text</Type>
+<Label>.1D.Atl2 City</Label>
+<Page></Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>8.148</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress2municipality) ^(U_pei_transportation.pei_altaddress2postalcode)</Text>
+</Body>
+<Special>
+<MoveToNextRecord>True</MoveToNextRecord>
+</Special>
+</Object>
+<Object no="51">
+<Type>Text</Type>
+<Label>.1E.Bus</Label>
+<Page></Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>9.73</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Bus AM: ^(U_pei_transportation.pei_busesam) Bus PM: ^(U_pei_transportation.pei_busespm)
+Bus AM Alt: ^(U_pei_transportation.pei_busesamalt) Bus PM Alt: ^(U_pei_transportation.pei_busespmalt)</Text>
+</Body>
+</Object>
+<Object no="52">
+<Type>Text</Type>
+<Label>.1F.Home Phone</Label>
+<Page></Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>9.436</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Home Phone: ^(Home_Phone)</Text>
+</Body>
+</Object>
+<Object no="53">
+<Type>Text</Type>
+<Label>.1G.Grade</Label>
+<Page></Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>9.156</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Grade: ^(Grade_Level)</Text>
+</Body>
+</Object>
+<Object no="54">
+<Type>Text</Type>
+<Label>.1H.Hm Rm</Label>
+<Page></Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>8.862</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Home Room: ^(Home_Room)</Text>
+</Body>
+</Object>
+<Object no="55">
+<Type>Text</Type>
+<Label>.1I.Student Name</Label>
+<Page></Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>0.574</Left>
+<Top>8.624</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>12</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+</Font>
+<Text>^(First_Name) ^(Last_Name)</Text>
+</Body>
+</Object>
+<Object no="56">
+<Type>Text</Type>
+<Label>.1J.Alt1 Type</Label>
+<Page></Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>8.694</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;^(U_pei_transportation.pei_altaddress1addresstype) -&lt;/b&gt; ^(U_pei_transportation.pei_altaddress1label)</Text>
+</Body>
+</Object>
+<Object no="57">
+<Type>Text</Type>
+<Label>.1K.Alt1 Address</Label>
+<Page></Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>8.918</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress1streetnum) ^(U_pei_transportation.pei_altaddress1streetname) ^(U_pei_transportation.pei_altaddress1apt)</Text>
+</Body>
+</Object>
+<Object no="58">
+<Type>Text</Type>
+<Label>.1L.Alt1 City</Label>
+<Page></Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>4.06</Left>
+<Top>9.142</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress1municipality) ^(U_pei_transportation.pei_altaddress1postalcode)</Text>
+</Body>
+</Object>
+<Object no="59">
+<Type>Text</Type>
+<Label>.1M.Alt2 Type</Label>
+<Page></Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>4.074</Left>
+<Top>9.59</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;^(U_pei_transportation.pei_altaddress2addresstype) -&lt;/b&gt; ^(U_pei_transportation.pei_altaddress2label)</Text>
+</Body>
+</Object>
+<Object no="60">
+<Type>Text</Type>
+<Label>.1N.Alt2 Address</Label>
+<Page></Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>4.074</Left>
+<Top>9.814</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress2streetnum) ^(U_pei_transportation.pei_altaddress2streetname) ^(U_pei_transportation.pei_altaddress2apt)</Text>
+</Body>
+</Object>
+<Object no="61">
+<Type>Text</Type>
+<Label>.1O.Atl2 City</Label>
+<Page></Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>4.074</Left>
+<Top>10.038</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(U_pei_transportation.pei_altaddress2municipality) ^(U_pei_transportation.pei_altaddress2postalcode)</Text>
+</Body>
+</Object>
+<Object no="62">
+<Type>Text</Type>
+<Label>.1P.Text</Label>
+<Page></Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>5.46</Left>
+<Top>10.458</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Date Printed: ^[Date]</Text>
+</Body>
+</Object>
+</ObjectData>
+</PSReportTemplate>

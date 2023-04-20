@@ -1,0 +1,459 @@
+<PSReportTemplate>
+<FileHeader>
+<Created>Tuesday, June 22, 2021 9:15:22 AM</Created>
+<PSVersion>(VisualPST 3.2.1,)</PSVersion>
+<TemplateVersion>1.0</TemplateVersion>
+<Author></Author>
+</FileHeader>
+<ReportHeader>
+<Type>Object Report</Type>
+<Name>Medical Alert Form</Name>
+<Table>Students</Table>
+</ReportHeader>
+<ReportData>
+<Units>Inches</Units>
+<Paper>
+<Size>Letter</Size>
+<Width>8.5</Width>
+<Height>11</Height>
+<Orientation>Portrait</Orientation>
+<Margins>
+<Left>0.5</Left>
+<Top>0.5</Top>
+<Right>0.5</Right>
+<Bottom>0.5</Bottom>
+</Margins>
+<Scale>100</Scale>
+</Paper>
+<Body>
+<Font>
+<Face>Palatino</Face>
+<Size>12</Size>
+<Leading>13</Leading>
+</Font>
+</Body>
+</ReportData>
+<ObjectData>
+<Type>Objects</Type>
+<Object no="1">
+<Type>Box</Type>
+<Label>.0.Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.518</Left>
+<Top>1.036</Top>
+<Right>4.732</Right>
+<Bottom>1.358</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Silver</Color>
+</Line>
+<Fill>
+<Color>Silver</Color>
+<Tint>100</Tint>
+</Fill>
+</Object>
+<Object no="2">
+<Type>Box</Type>
+<Label>.1.Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.49</Left>
+<Top>4.774</Top>
+<Right>8.008</Right>
+<Bottom>7.742</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="3">
+<Type>Box</Type>
+<Label>.2.Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.49</Left>
+<Top>7.854</Top>
+<Right>7.994</Right>
+<Bottom>10.486</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="4">
+<Type>Box</Type>
+<Label>.3.Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>4.886</Left>
+<Top>1.036</Top>
+<Right>7.994</Right>
+<Bottom>4.648</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="5">
+<Type>Box</Type>
+<Label>.4.Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.504</Left>
+<Top>7.868</Top>
+<Right>7.98</Right>
+<Bottom>8.12</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Silver</Color>
+</Line>
+<Fill>
+<Color>Silver</Color>
+<Tint>100</Tint>
+</Fill>
+</Object>
+<Object no="6">
+<Type>Box</Type>
+<Label>.5.Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.504</Left>
+<Top>4.788</Top>
+<Right>7.994</Right>
+<Bottom>5.04</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Silver</Color>
+</Line>
+<Fill>
+<Color>Silver</Color>
+<Tint>100</Tint>
+</Fill>
+</Object>
+<Object no="7">
+<Type>Picture</Type>
+<Label>.6.Picture</Label>
+<Page></Page>
+<Layer>0</Layer>
+<ScalingOption>shrink</ScalingOption>
+<Coordinates>
+<Left>1.428</Left>
+<Top>1.638</Top>
+<Right>3.794</Right>
+<Bottom>4.06</Bottom>
+</Coordinates>
+<Picture>studentphoto</Picture>
+</Object>
+<Object no="8">
+<Type>Text</Type>
+<Label>.7.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>2.688</Left>
+<Top>0.756</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;&lt;u&gt;Student Medical Alert Form - ^(yearname)&lt;/u&gt;&lt;/b&gt;</Text>
+</Body>
+</Object>
+<Object no="9">
+<Type>Text</Type>
+<Label>.8.Student Name</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.546</Left>
+<Top>1.246</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;^(LAST_NAME), ^(First_Name)&lt;/b&gt;</Text>
+</Body>
+</Object>
+<Object no="10">
+<Type>Text</Type>
+<Label>.9.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>5.068</Left>
+<Top>1.68</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>12</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;Grade: &lt;/b&gt;^(Grade_Level)&lt;b&gt;Home Room: &lt;/b&gt;^(Home_Room)&lt;b&gt;Student Number: &lt;/b&gt;^(Student_Number)&lt;b&gt;D.O.B.:  &lt;/b&gt;^(DOB)&lt;b&gt;&lt;/b&gt;&lt;i&gt;(MM/DD/YYYY)&lt;/i&gt;&lt;b&gt;Age:&lt;/b&gt; ^(age)     &lt;b&gt;Gender: &lt;/b&gt;^(Gender)    &lt;b&gt;Address: &lt;/b&gt;^(Street) ^(City), ^(State), ^(Zip)</Text>
+</Body>
+</Object>
+<Object no="11">
+<Type>Text</Type>
+<Label>.A.Home Phone #: </Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>5.11</Left>
+<Top>1.302</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+</Font>
+<Text>Home Phone #: ^(Home_Phone)</Text>
+</Body>
+</Object>
+<Object no="12">
+<Type>Text</Type>
+<Label>.B.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>4.606</Left>
+<Top>7.35</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>Doctor: ^(Doctor_Name)</Text>
+</Body>
+</Object>
+<Object no="13">
+<Type>Text</Type>
+<Label>.C.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>4.606</Left>
+<Top>7.602</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>Doctor #: ^(Doctor_Phone)</Text>
+</Body>
+</Object>
+<Object no="14">
+<Type>Text</Type>
+<Label>.D.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.574</Left>
+<Top>5.334</Top>
+</Coordinates>
+<MaxWidth>3.6</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;Medical Alert&lt;/b&gt;
+Epi-Pen Required (EPIY=Yes, EPIN=No): ^(StudentCoreFields.allergies)
+
+Allergy: ^(Alert_Medical)</Text>
+</Body>
+</Object>
+<Object no="15">
+<Type>Text</Type>
+<Label>.E.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>4.522</Left>
+<Top>5.32</Top>
+</Coordinates>
+<MaxWidth>3.3</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;Special Medical Considerations&lt;/b&gt;
+^(StudentCoreFields.medical_considerations)</Text>
+</Body>
+</Object>
+<Object no="16">
+<Type>Text</Type>
+<Label>.F.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.56</Left>
+<Top>8.064</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;Student Contact Information&lt;/b&gt;</Text>
+</Body>
+</Object>
+<Object no="17">
+<Type>Text</Type>
+<Label>.G.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.588</Left>
+<Top>8.428</Top>
+</Coordinates>
+<MaxWidth>2.3</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>^(*contact_info;which-pers=1;cat=dem;val=firstname;) ^(*contact_info;which-pers=1;cat=dem;val=lastname;) [&lt;i&gt;^(*contact_info;which-pers=1;cat=rel;val=relationship)&lt;/i&gt;]
+
+^(*contact_info;which-pers=1;cat=phone;which-val=all;val=type,phone;item-delim=br)</Text>
+</Body>
+</Object>
+<Object no="18">
+<Type>Text</Type>
+<Label>.H.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>3.024</Left>
+<Top>8.428</Top>
+</Coordinates>
+<MaxWidth>2.3</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>^(*contact_info;max-pers=all;which-pers=2;cat=dem;val=firstname;)  ^(*contact_info;max-pers=all;which-pers=2;cat=dem;val=lastname;) [&lt;i&gt;^(*contact_info;max-pers=all;which-pers=2;cat=rel;val=relationship)&lt;/i&gt;]
+
+^(*contact_info;max-pers=all;which-pers=2;cat=phone;which-val=all;val=type,phone;item-delim=br)</Text>
+</Body>
+</Object>
+<Object no="19">
+<Type>Text</Type>
+<Label>.I.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>5.516</Left>
+<Top>8.442</Top>
+</Coordinates>
+<MaxWidth>2.3</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>^(*contact_info;max-pers=all;which-pers=3;cat=dem;val=firstname;)  ^(*contact_info;max-pers=all;which-pers=3;cat=dem;val=lastname;) [&lt;i&gt;^(*contact_info;max-pers=all;which-pers=3;cat=rel;val=relationship)&lt;/i&gt;]
+
+^(*contact_info;max-pers=all;which-pers=3;cat=phone;which-val=all;val=type,phone;item-delim=br)
+</Text>
+</Body>
+</Object>
+<Object no="20">
+<Type>Text</Type>
+<Label>.J.Text</Label>
+<Page></Page>
+<Layer>20</Layer>
+<Coordinates>
+<Left>0.532</Left>
+<Top>4.984</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;Medical Information&lt;/b&gt;</Text>
+</Body>
+</Object>
+<Object no="21">
+<Type>Text</Type>
+<Label>.K.Text</Label>
+<Page></Page>
+<Layer>20</Layer>
+<Coordinates>
+<Left>5.754</Left>
+<Top>10.794</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Date Printed: ^[short.date]</Text>
+</Body>
+</Object>
+</ObjectData>
+</PSReportTemplate>

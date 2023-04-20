@@ -1,0 +1,59 @@
+<PSReportTemplate>
+<FileHeader>
+<Created>Thursday, November 10, 2022 9:52:01 AM</Created>
+<PSVersion>(VisualPST 3.2.1,)</PSVersion>
+<TemplateVersion>1.0</TemplateVersion>
+<Author></Author>
+</FileHeader>
+<ReportHeader>
+<Type>Object Report</Type>
+<Name>Initial Absentee Letter_v1</Name>
+<Table>Students</Table>
+</ReportHeader>
+<ReportData>
+<Units>Inches</Units>
+<Paper>
+<Size>Letter</Size>
+<Width>8.5</Width>
+<Height>11</Height>
+<Orientation>Portrait</Orientation>
+<Margins>
+<Left>0.5</Left>
+<Top>0.5</Top>
+<Right>0.5</Right>
+<Bottom>0.5</Bottom>
+</Margins>
+<Scale>100</Scale>
+</Paper>
+<Body>
+<Font>
+<Face>Palatino</Face>
+<Size>12</Size>
+<Leading>13</Leading>
+</Font>
+</Body>
+</ReportData>
+<ObjectData>
+<Type>Objects</Type>
+<Object no="1">
+<Type>Text</Type>
+<Label>.0.Text</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.686</Left>
+<Top>2.282</Top>
+</Coordinates>
+<MaxWidth>7</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>^(schoolname)^([39]schooladdress)^([39]schoolcity), ^([39]schoolstate)  ^([39]schoolzip)^[Letter.Date] ^(Mailing_Street)^(Mailing_City), ^(Mailing_State)  ^(Mailing_Zip)To the parents/guardians of ^(First_Name) ^(Last_Name): Re: Second Notification of Absenteeism Student name: ^(First_Name) ^(Last_Name)Date of birth: ^(DOB)Home room: ^(Home_Room)This letter is to inform you that ^(First_Name) has additional absences from school since the Initial Notice of Absenteeism letter was sent to you. The Public Schools Branch Student Attendance and Engagement procedure requires the school to send a notice when a student has absences which are concerning to the teacher and are impacting the student's learning. An absence summary is attached. If you feel that there is an error in our records, please contact the school immediately. We would like to discuss with you the factors contributing to ^(First_Name)'s absenteeism and to develop a support plan. Please contact me at ^([39]schoolphone) immediately so we can schedule an appointment. ^(First_Name)'s absenteeism is a concern. Please be advised that additional absences may be reported to the Director of the Public Schools Branch. Sincerely, ^([39]Principal)School Principal</Text>
+</Body>
+</Object>
+</ObjectData>
+</PSReportTemplate>
